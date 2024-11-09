@@ -61,7 +61,6 @@ void drawText() {
 
     glDisable(GL_LINE_SMOOTH);
     glDisable(GL_BLEND);
-    glFlush();
 }
 
 // 3. Draw a cube with RGB colors
@@ -120,7 +119,6 @@ void drawCubeRGB() {
     glVertex2i(150, 200);
 
     glEnd();
-    glFlush();
 }
 
 void display() {
