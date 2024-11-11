@@ -1,5 +1,6 @@
 #include <gl/freeglut.h>
 
+// 04/11/2024
 void init() {
     glClearColor(0.282f, 0.545f, 0.639f, 1.0f);
     glMatrixMode(GL_PROJECTION);
