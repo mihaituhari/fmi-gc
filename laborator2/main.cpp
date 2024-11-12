@@ -62,17 +62,17 @@ void drawFrontTriangle() {
 
     glBegin(GL_TRIANGLES);
     glVertex2i(100, 200); // A
-    glVertex2i(200, 300); // B
-    glVertex2i(300, 200); // C
+    glVertex2i(300, 200); // B
+    glVertex2i(200, 300); // C
     glEnd();
 
     // Litere ABC
     glColor3f(1.0, 1.0, 1.0);
     glRasterPos2i(100, 200); // A
     glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, 'A');
-    glRasterPos2i(200, 300); // B
-    glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, 'B');
     glRasterPos2i(300, 200); // C
+    glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, 'B');
+    glRasterPos2i(200, 300); // B
     glutBitmapCharacter(GLUT_BITMAP_HELVETICA_18, 'C');
 }
 
@@ -109,7 +109,7 @@ void renderTree(int x) {
     int yOffset = 5; // Offset de la marginea de jos
     int trunkWidth = 20; // Latime trunchi
     int trunkHeight = 50; // Inaltime trunchi
-    int triangleHeight = 40; // Inaltime triunghi coroana
+    int triangleHeight = 60; // Inaltime triunghi coroana
 
     treeDisplayList = glGenLists(1);
     glNewList(treeDisplayList, GL_COMPILE);
