@@ -7,7 +7,7 @@
 
 
 // SURSA: http://www.codeproject.com/KB/openGL/OpenGLStipplePolygon.aspx
-#include <gl/freeglut.h>
+#include <GL/freeglut.h>
 
 
 // function that creates the stipple patterns and rectangular polygons.

@@ -1,4 +1,4 @@
-﻿#include <gl/freeglut.h>
+﻿#include <GL/freeglut.h>
 
 GLint winWidth = 800, winHeight = 600;
 

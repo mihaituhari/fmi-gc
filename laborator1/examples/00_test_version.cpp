@@ -1,7 +1,7 @@
 #include <cstdio>
 #include <GL/glew.h>
 #include <GL/freeglut.h>
-#include "../include/loadShaders.h"
+#include "../../shaders/include/loadShaders.h"
 
 // Function to render the scene
 void display() {

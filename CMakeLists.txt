@@ -31,7 +31,7 @@ link_directories(
 # Add main.cpp and loadShaders.cpp to the executable
 add_executable(
         fmi_gc
-        curs2/main.cpp
+        laborator2/main.cpp
 )
 
 target_include_directories(fmi_gc PRIVATE
